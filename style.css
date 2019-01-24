@@ -1583,30 +1583,24 @@ img {
   padding-bottom: 10px;
 }
 
-.footer-area span {
+.footer-area p {
   color: #ccc;
   font-size: 16px;
   margin-bottom: 0;
 }
 
-.footer-area .footer-widget-area p {
-  color: #ccc;
-  font-size: 16px;
-  margin-bottom: 0;
-}
-
-.footer-area .footer-widget-area .widget-title {
+.footer-area .widget-title {
   padding-top: 15px;
   color: #fff;
   font-weight: 400;
 }
 
-.footer-area .footer-widget-area .subscribe-form {
+.footer-area .subscribe-form {
   position: relative;
   z-index: 1;
 }
 
-.footer-area .footer-widget-area .subscribe-form input {
+.footer-area .subscribe-form input {
   width: 100%;
   height: 46px;
   background-color: transparent;
@@ -1615,7 +1609,7 @@ img {
   color: #fff;
 }
 
-.footer-area .footer-widget-area .subscribe-form button {
+.footer-area .subscribe-form button {
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
   width: 100%;
@@ -1628,7 +1622,7 @@ img {
   background-color: #cb8670;
 }
 
-.footer-area .footer-widget-area .subscribe-form button:hover, .footer-area .footer-widget-area .subscribe-form button:focus {
+.footer-area .subscribe-form button:hover, .footer-area .subscribe-form button:focus {
   background-color: #363636;
 }
 
@@ -1655,6 +1649,10 @@ img {
 
 .logo-footer {
   width: 250px;
+}
+
+.footer-address {
+  padding-top: 10px;
 }
 
 /* :: 14.0 Breadcumb Area CSS */
