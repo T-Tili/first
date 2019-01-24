@@ -951,6 +951,7 @@ img {
   align-items: center;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  justify-content: center;
   width: 100%;
 }
 
@@ -1016,7 +1017,7 @@ img {
 
 .book-now-form form button {
   border-right: 2px solid #cb8670;
-  font-size: 16px;
+  font-size: 24px;
   background-color: #cb8670;
   text-transform: uppercase;
   color: #fff;
@@ -1073,13 +1074,13 @@ img {
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .book-now-form .nice-select .current {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .book-now-form .nice-select .current {
-    font-size: 14px;
+    font-size: 18px;
   }
 }
 
@@ -1097,13 +1098,13 @@ img {
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .book-now-form .nice-select .option {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .book-now-form .nice-select .option {
-    font-size: 13px;
+    font-size: 16px;
   }
 }
 
