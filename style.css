@@ -596,7 +596,7 @@ img {
 .header-area .palatin-main-menu .classy-navbar .classynav ul li a {
   text-transform: capitalize;
   color: #fff;
-  font-size: 16px;
+  font-size: 18px;
   background-color: transparent;
 }
 
@@ -607,7 +607,7 @@ img {
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .header-area .palatin-main-menu .classy-navbar .classynav ul li a {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
@@ -628,7 +628,6 @@ img {
   background-color: #cb8670;
 }
 
-.header-area .palatin-main-menu .classy-navbar .classynav ul li.megamenu-item>a::after,
 .header-area .palatin-main-menu .classy-navbar .classynav ul li.has-down>a::after {
   color: #fff;
 }
@@ -725,18 +724,6 @@ img {
 @media only screen and (max-width: 767px) {
   .breakpoint-on .classy-navbar .classy-menu {
     background-color: #cb8670;
-  }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .classynav ul li .megamenu .single-mega.cn-col-4 {
-    padding: 0;
-  }
-}
-
-@media only screen and (max-width: 767px) {
-  .classynav ul li .megamenu .single-mega.cn-col-4 {
-    padding: 0;
   }
 }
 
