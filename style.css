@@ -19,7 +19,7 @@
 :: 8.0 Pool Area CSS
 :: 9.0 Rooms Area CSS
 :: 10.0 Services Area CSS
-:: 11.0 Our Hotel Area CSS
+:: 11.0 Our Team Area CSS
 :: 12.0 Testimonial Area CSS
 :: 13.0 Footer Area CSS
 :: 14.0 Breadcumb Area CSS
@@ -221,7 +221,7 @@ img {
   margin-bottom: 60px;
 }
 
-.section-heading .line- {
+.line- {
   width: 90px;
   height: 2px;
   background-color: #cb8670;
@@ -1480,44 +1480,18 @@ img {
   background-color: rgba(0, 0, 0, 0.63);
 }
 
-/* :: 11.0 Our Hotel Area CSS */
-.single-hotel-info {
+/* :: 11.0 Our Team Area CSS */
+.team-img {
+  width: 500px;
+}
+
+.team-member-info {
   position: relative;
   z-index: 1;
 }
 
-.single-hotel-info .hotel-info-text {
-  position: relative;
-  z-index: 1;
-  margin-bottom: 45px;
-}
-
-.single-hotel-info .hotel-info-text h6 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -ms-grid-row-align: center;
-  align-items: center;
-  margin-bottom: 15px;
-  font-size: 16px;
-}
-
-.single-hotel-info .hotel-info-text h6 span {
-  -webkit-box-flex: 0;
-  -ms-flex: 0 0 30px;
-  flex: 0 0 30px;
-  max-width: 30px;
-  width: 30px;
-  margin-right: 15px;
-  height: 30px;
-  text-align: center;
-  font-size: 12px;
-  background-color: #cb8670;
-  border-radius: 50%;
-  line-height: 30px;
-  color: #fff;
+.team-text {
+  font-size: 1rem;
 }
 
 /* :: 12.0 Testimonial Area CSS */
