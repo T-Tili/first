@@ -719,18 +719,28 @@ img {
   .breakpoint-on .classy-navbar .classy-menu {
     background-color: rgba(203, 134, 112, 0.1);
   }
+
+  .last-dropdown {
+    border-bottom: 1px solid rgba(242, 244, 248, 1);
+  }
 }
 
 @media only screen and (max-width: 767px) {
   .breakpoint-on .classy-navbar .classy-menu {
     background-color: rgba(203, 134, 112, 0.1);
+  }
 
+  .last-dropdown {
+    border-bottom: 1px solid rgba(242, 244, 248, 1);
   }
 }
 
 .classycloseIcon .cross-wrap span {
   background: #fff;
 }
+
+
+
 
 /* :: 5.0 Hero Area CSS */
 .hero-slides {
@@ -1017,7 +1027,7 @@ img {
 
 .book-now-form form button {
   border-right: 2px solid #cb8670;
-  font-size: 24px;
+  font-size: 22px;
   background-color: #cb8670;
   text-transform: uppercase;
   color: #fff;
@@ -1115,6 +1125,88 @@ img {
 }
 
 /* :: 7.0 About Us Area CSS */
+.about-wot p {
+  font-size: 1.5rem;
+  text-indent: 3rem;
+}
+
+.about-carousel-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: relative;
+  z-index: 1;
+}
+
+.about-carousel-section p {
+  font-size: 1.25rem;
+}
+
+.about-list {
+  color: #fff;
+  font-size: 1.25rem;
+  text-align: left;
+  /* line-height: 2; */
+}
+
+.about-carousel-section ul {
+  color: #fff;
+  list-style-type: disc;
+  z-index: 100;
+}
+
+.about-carousel-section ul li {
+  /* display: list-item; */
+}
+
+.about-carousel-section ul li::first-letter {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.about-carousel-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.about-carousel-1 {
+  background-image: url(img/bg-img/bg-4.jpg);
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+.about-carousel-2 {
+  background-image: url(img/bg-img/bg-5.jpg);
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+.about-carousel-3 {
+  background-image: url(img/bg-img/bg-7.jpg);
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+.about-carousel-containers-mission {
+  padding-bottom: 200px;
+  padding-top: 100px;
+}
+
+.about-carousel-containers-vision {
+  padding-bottom: 242px;
+  padding-top: 100px;
+}
+
+.about-carousel-containers-values {
+  padding-bottom: 80px;
+  padding-top: 100px;
+}
+
 .about-thumbnail {
   position: relative;
   z-index: 1;
@@ -1122,26 +1214,34 @@ img {
 
 .about-thumbnail.homepage .first-img {
   position: relative;
-  width: 50%;
+  width: 60%;
   margin-left: auto;
   box-shadow: 0 8px 30px 0 rgba(0, 0, 0, 0.15);
+  left: 80px;
+  top: 80px;
 }
 
 .about-thumbnail.homepage .second-img {
   position: relative;
-  z-index: 1;
+  z-index: 2;
   width: 55%;
   margin-top: -50%;
   box-shadow: 0 8px 30px 0 rgba(0, 0, 0, 0.15);
+  bottom: 30px;
 }
 
 .about-thumbnail.homepage .third-img {
   position: relative;
   z-index: 1;
   margin: 0 auto;
-  width: 45%;
+  width: 75%;
   margin-top: -30%;
   box-shadow: 0 8px 30px 0 rgba(0, 0, 0, 0.15);
+  top: 35px;
+}
+
+.about-text p {
+  font-size: 1.25rem;
 }
 
 .about-key-text {
@@ -1471,15 +1571,6 @@ img {
   margin-bottom: 0;
 }
 
-.our-milestones {
-  position: relative;
-  z-index: 1;
-}
-
-.our-milestones .single-cool-fact {
-  background-color: rgba(0, 0, 0, 0.63);
-}
-
 /* :: 11.0 Our Team Area CSS */
 .team-img {
   width: 500px;
@@ -1492,61 +1583,6 @@ img {
 
 .team-text {
   font-size: 1rem;
-}
-
-/* :: 12.0 Testimonial Area CSS */
-.testimonial-content {
-  position: relative;
-  z-index: 1;
-  border: 2px solid #cb8670;
-  background-color: #fff;
-  padding: 100px;
-  width: 100%;
-}
-
-@media only screen and (max-width: 767px) {
-  .testimonial-content {
-    padding: 30px;
-  }
-}
-
-.testimonial-content .single-testimonial {
-  position: relative;
-  z-index: 1;
-  text-align: center;
-}
-
-.testimonial-content .single-testimonial p {
-  font-size: 16px;
-  color: #7d7d7d;
-  font-style: italic;
-}
-
-@media only screen and (max-width: 767px) {
-  .testimonial-content .single-testimonial p {
-    font-size: 14px;
-  }
-}
-
-.testimonial-content .single-testimonial h6 {
-  margin-top: 55px;
-  margin-bottom: 60px;
-}
-
-.testimonial-content .single-testimonial h6 span {
-  color: #cb8670;
-}
-
-@media only screen and (max-width: 767px) {
-  .testimonial-content .single-testimonial h6 {
-    margin-top: 25px;
-    margin-bottom: 30px;
-  }
-}
-
-.testimonial-content .single-testimonial img {
-  width: auto !important;
-  margin: 0 auto;
 }
 
 /* :: 13.0 Footer Area CSS */
