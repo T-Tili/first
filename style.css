@@ -1179,19 +1179,21 @@ img {
 }
 
 .about-carousel-1 {
-  background-image: url(img/bg-img/bg-4.jpg);
+  background-image: url(img/bg-img/about-carousel-1.jpg);
   padding-bottom: 100px;
   padding-top: 100px;
 }
 
 .about-carousel-2 {
-  background-image: url(img/bg-img/bg-5.jpg);
+  background-image: url(img/bg-img/about-carousel-2.jpg);
+  background-position: bottom;
   padding-bottom: 100px;
   padding-top: 100px;
 }
 
 .about-carousel-3 {
-  background-image: url(img/bg-img/bg-7.jpg);
+  background-image: url(img/bg-img/about-carousel-3.jpg);
+  background-position: bottom;
   padding-bottom: 100px;
   padding-top: 100px;
 }
@@ -1283,6 +1285,10 @@ img {
   border-radius: 50%;
   line-height: 30px;
   color: #fff;
+}
+
+#our-team {
+  padding-top: 100px;
 }
 
 /* :: 8.0 Pool Area CSS */
