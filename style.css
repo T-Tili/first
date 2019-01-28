@@ -1592,6 +1592,10 @@ img {
   margin-bottom: 0;
 }
 
+.service-areas p {
+  font-size: 1rem;
+}
+
 .service-areas ul {
   list-style: disc;
 }
