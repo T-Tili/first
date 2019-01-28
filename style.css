@@ -1931,44 +1931,45 @@ img {
   color: #c79c6e;
 }
 
-.single-contact-information {
+.contact-information {
+  padding-top: 30px;
   position: relative;
   z-index: 1;
 }
 
-.single-contact-information .section-text {
+.contact-information .section-text {
   position: relative;
   z-index: 1;
   margin-bottom: 40px;
 }
 
-.single-contact-information .section-text h3 {
+.contact-information .section-text h3 {
   font-weight: 400;
   font-size: 30px;
   margin-bottom: 10px;
 }
 
-.single-contact-information .section-text p {
+.contact-information .section-text p {
   margin-bottom: 0;
 }
 
-.single-contact-information .contact-content {
+.contact-information .contact-content {
   position: relative;
   z-index: 1;
   margin-bottom: 20px;
 }
 
-.single-contact-information .contact-content:last-child {
+.contact-information .contact-content:last-child {
   margin-bottom: 0;
 }
 
-.single-contact-information .contact-content p {
+.contact-information .contact-content p {
   font-size: 15px;
   color: #7d7d7d;
   margin-bottom: 0;
 }
 
-.single-contact-information .contact-content p:first-child {
+.contact-information .contact-content p:first-child {
   font-size: 18px;
   color: #c79c6e;
   margin-bottom: 0;
