@@ -1213,17 +1213,17 @@ img {
 }
 
 .about-carousel-containers-mission {
-  padding-bottom: 200px;
+  padding-bottom: 150px;
   padding-top: 100px;
 }
 
 .about-carousel-containers-vision {
-  padding-bottom: 242px;
+  padding-bottom: 200px;
   padding-top: 100px;
 }
 
 .about-carousel-containers-values {
-  padding-bottom: 80px;
+  padding-bottom: 0;
   padding-top: 100px;
 }
 
