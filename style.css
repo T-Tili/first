@@ -1604,29 +1604,6 @@ img {
   list-style: disc;
 }
 
-.visa-header {
-  background-image: url(img/bg-img/visa-home.jpg);
-  background-position: top;
-}
-
-.education-header {
-  background-image: url(img/bg-img/education-header.jpg);
-  background-position: bottom;
-}
-
-.health-header {
-  background-image: url(img/bg-img/health-header.jpg);
-  background-position: top;
-}
-
-.real-estate-header {
-  background-image: url(img/bg-img/real-estate-header.jpg);
-}
-
-.business-header {
-  background-image: url(img/bg-img/business-header.jpg);
-}
-
 /* :: 11.0 Our Team Area CSS */
 .team-img {
   width: 500px;
@@ -1765,6 +1742,29 @@ img {
   .breadcrumb-area .breadcrumbContent h2 {
     font-size: 30px;
   }
+}
+
+.visa-header {
+  background-image: url(img/bg-img/visa-home.jpg);
+  background-position: top;
+}
+
+.education-header {
+  background-image: url(img/bg-img/education-header.jpg);
+  background-position: bottom;
+}
+
+.health-header {
+  background-image: url(img/bg-img/health-header.jpg);
+  background-position: top;
+}
+
+.real-estate-header {
+  background-image: url(img/bg-img/real-estate-header.jpg);
+}
+
+.business-header {
+  background-image: url(img/bg-img/business-header.jpg);
 }
 
 /* :: 15.0 Blog Area CSS */
