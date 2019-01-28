@@ -115,7 +115,7 @@ https://github.com/imakewebthings/jquery-waypoints/blob/master/licenses.txt
             openCloseSpeed: 350,
             megaopenCloseSpeed: 700,
             alwaysHidden: false,
-            openMobileMenu: 'left',
+            openMobileMenu: 'right',
             dropdownRtl: false,
             stickyNav: false,
             stickyFooterNav: false
