@@ -1187,20 +1187,27 @@ img {
 
 .about-carousel-1 {
   background-image: url(img/bg-img/about-carousel-1.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
   padding-bottom: 100px;
   padding-top: 100px;
 }
 
 .about-carousel-2 {
   background-image: url(img/bg-img/about-carousel-2.jpg);
-  background-position: bottom;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
   padding-bottom: 100px;
   padding-top: 100px;
 }
 
 .about-carousel-3 {
   background-image: url(img/bg-img/about-carousel-3.jpg);
-  background-position: bottom;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
   padding-bottom: 100px;
   padding-top: 100px;
 }
