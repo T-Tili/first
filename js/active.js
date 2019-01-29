@@ -12,7 +12,7 @@
 
     // :: 2.0 Nav Active Code
     if ($.fn.classyNav) {
-        $('#palatinNav').classyNav();
+        $('#skyNav').classyNav();
     }
 
     // :: 3.0 Nice-select Active Code
@@ -104,7 +104,7 @@
 
     // :: 7.0 Sticky Active Code
     if ($.fn.sticky) {
-        $(".palatin-main-menu").sticky({
+        $(".sky-main-menu").sticky({
             topSpacing: 0
         });
     }
