@@ -17,7 +17,7 @@
 :: 6.0 Book Now Area CSS
 :: 7.0 About Us Area CSS
 :: 8.0 Pool Area CSS
-:: 9.0 Rooms Area CSS
+:: 9.0 Home Services Area CSS
 :: 10.0 Services Area CSS
 :: 11.0 Our Team Area CSS
 :: 12.0 Testimonial Area CSS
@@ -559,18 +559,18 @@ img {
   z-index: 1000;
 }
 
-.header-area .palatin-main-menu {
+.header-area .sky-main-menu {
   position: relative;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.63);
   border-bottom: 2px solid rgba(199, 156, 110, 0.63);
 }
 
-.header-area .palatin-main-menu .classy-nav-container {
+.header-area .sky-main-menu .classy-nav-container {
   background-color: transparent;
 }
 
-.header-area .palatin-main-menu .classy-navbar {
+.header-area .sky-main-menu .classy-navbar {
   -webkit-transition-duration: 300ms;
   transition-duration: 300ms;
   background-color: transparent;
@@ -584,96 +584,96 @@ img {
 }
 
 @media only screen and (max-width: 767px) {
-  .header-area .palatin-main-menu .classy-navbar {
+  .header-area .sky-main-menu .classy-navbar {
     height: 70px;
   }
 }
 
 /* @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .header-area .palatin-main-menu .classy-navbar .nav-brand {
+  .header-area .sky-main-menu .classy-navbar .nav-brand {
     max-width: 140px;
   }
 } */
 
 @media only screen and (max-width: 767px) {
-  .header-area .palatin-main-menu .classy-navbar .nav-brand {
+  .header-area .sky-main-menu .classy-navbar .nav-brand {
     max-width: 125px;
   }
 }
 
-.header-area .palatin-main-menu .classy-navbar .classynav ul li a {
+.header-area .sky-main-menu .classy-navbar .classynav ul li a {
   text-transform: capitalize;
   color: #fff;
   font-size: 18px;
   background-color: transparent;
 }
 
-.header-area .palatin-main-menu .classy-navbar .classynav ul li a:hover, .header-area .palatin-main-menu .classy-navbar .classynav ul li a:focus {
+.header-area .sky-main-menu .classy-navbar .classynav ul li a:hover, .header-area .sky-main-menu .classy-navbar .classynav ul li a:focus {
   color: #fff;
   background-color: #c79c6e;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .header-area .palatin-main-menu .classy-navbar .classynav ul li a {
+  .header-area .sky-main-menu .classy-navbar .classynav ul li a {
     font-size: 16px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .header-area .palatin-main-menu .classy-navbar .classynav ul li a {
+  .header-area .sky-main-menu .classy-navbar .classynav ul li a {
     background-color: #c79c6e;
   }
 }
 
 @media only screen and (max-width: 767px) {
-  .header-area .palatin-main-menu .classy-navbar .classynav ul li a {
+  .header-area .sky-main-menu .classy-navbar .classynav ul li a {
     background-color: #c79c6e;
   }
 }
 
-.header-area .palatin-main-menu .classy-navbar .classynav ul li.active a {
+.header-area .sky-main-menu .classy-navbar .classynav ul li.active a {
   color: #fff;
   background-color: #c79c6e;
 }
 
-.header-area .palatin-main-menu .classy-navbar .classynav ul li.has-down>a::after {
+.header-area .sky-main-menu .classy-navbar .classynav ul li.has-down>a::after {
   color: #fff;
 }
 
-.header-area .palatin-main-menu .classy-navbar .classynav ul li ul li a {
+.header-area .sky-main-menu .classy-navbar .classynav ul li ul li a {
   color: #363636;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .header-area .palatin-main-menu .classy-navbar .classynav ul li ul li a {
+  .header-area .sky-main-menu .classy-navbar .classynav ul li ul li a {
     padding: 0 20px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .header-area .palatin-main-menu .classy-navbar .classynav ul li ul li a {
+  .header-area .sky-main-menu .classy-navbar .classynav ul li ul li a {
     color: #fff;
   }
 }
 
 @media only screen and (max-width: 767px) {
-  .header-area .palatin-main-menu .classy-navbar .classynav ul li ul li a {
+  .header-area .sky-main-menu .classy-navbar .classynav ul li ul li a {
     color: #fff;
   }
 }
 
-.header-area .palatin-main-menu .classy-navbar .menu-btn {
+.header-area .sky-main-menu .classy-navbar .menu-btn {
   margin-left: 100px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .header-area .palatin-main-menu .classy-navbar .menu-btn {
+  .header-area .sky-main-menu .classy-navbar .menu-btn {
     margin-left: 30px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .header-area .palatin-main-menu .classy-navbar .menu-btn {
+  .header-area .sky-main-menu .classy-navbar .menu-btn {
     margin-left: 30px;
     border: 2px solid #fff;
     margin-top: 30px;
@@ -682,7 +682,7 @@ img {
 }
 
 @media only screen and (max-width: 767px) {
-  .header-area .palatin-main-menu .classy-navbar .menu-btn {
+  .header-area .sky-main-menu .classy-navbar .menu-btn {
     margin-left: 30px;
     border: 2px solid #fff;
     margin-top: 30px;
@@ -690,12 +690,12 @@ img {
   }
 }
 
-.header-area .palatin-main-menu .classy-navbar .menu-btn a {
+.header-area .sky-main-menu .classy-navbar .menu-btn a {
   color: #fff;
   font-size: 16px;
 }
 
-.header-area .is-sticky .palatin-main-menu {
+.header-area .is-sticky .sky-main-menu {
   position: fixed;
   width: 100%;
   top: 0;
@@ -705,20 +705,20 @@ img {
   box-shadow: 0 5px 50px 15px rgba(0, 0, 0, 0.2);
 }
 
-.header-area .is-sticky .palatin-main-menu .classy-navbar {
+.header-area .is-sticky .sky-main-menu .classy-navbar {
   height: 90px;
 }
 
-.header-area .is-sticky .palatin-main-menu .classy-navbar .nav-brand {
+.header-area .is-sticky .sky-main-menu .classy-navbar .nav-brand {
   width: 150px;
 }
 
 @media only screen and (max-width: 767px) {
-  .header-area .is-sticky .palatin-main-menu .classy-navbar {
+  .header-area .is-sticky .sky-main-menu .classy-navbar {
     height: 70px;
   }
 
-  .header-area .is-sticky .palatin-main-menu .classy-navbar .nav-brand {
+  .header-area .is-sticky .sky-main-menu .classy-navbar .nav-brand {
     width: 125px;
   }
 }
@@ -1342,7 +1342,7 @@ img {
   margin-bottom: 0;
 }
 
-/* :: 9.0 Rooms Area CSS */
+/* :: 9.0 Home Services Area CSS */
 .home-services-area {
   position: relative;
   z-index: 10;
@@ -1427,7 +1427,7 @@ img {
   margin-bottom: 0;
 }
 
-.home-services-area .book-room-btn {
+.home-services-area .learn-more-btn {
   position: absolute;
   bottom: -15px;
   left: 50%;
