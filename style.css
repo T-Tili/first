@@ -1367,6 +1367,10 @@ img {
   background-position: 19%;
 }
 
+.home-services-area .education-home-img {
+  background-position: 75%;
+}
+
 .home-services-area .price-from {
   position: absolute;
   z-index: 20;
@@ -1742,7 +1746,7 @@ img {
 
 .education-header {
   background-image: url(img/bg-img/education-header.jpg);
-  background-position: bottom;
+  /* background-position: bottom; */
 }
 
 .health-header {
