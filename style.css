@@ -834,7 +834,11 @@ img {
 }
 
 .slide-img-1 {
-  background-position: right 25% bottom 25%;
+  background-position: right 50% bottom 35%;
+}
+
+.index-header-2 {
+  background-position: right 50% top 25%;
 }
 
 .single-hero-slide .hero-slides-content {
@@ -1360,7 +1364,7 @@ img {
 }
 
 .home-services-area .visa-home-img {
-  background-position: 32%;
+  background-position: 19%;
 }
 
 .home-services-area .price-from {
