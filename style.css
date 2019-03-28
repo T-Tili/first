@@ -838,7 +838,11 @@ img {
 }
 
 .index-header-2 {
-  background-position: right 50% top 25%;
+  background-position: right 50% top 45%;
+}
+
+.index-header-3 {
+  background-position: right 50% top 65%;
 }
 
 .single-hero-slide .hero-slides-content {
@@ -1331,10 +1335,9 @@ img {
   display: block;
 }
 
-.pool-content .pool-feature p {
+.pool-content p {
   color: #fff;
-  font-size: 14px;
-  margin-bottom: 0;
+  font-size: 20px;
 }
 
 /* :: 9.0 Home Services Area CSS */
@@ -1754,8 +1757,8 @@ img {
   background-position: top;
 }
 
-.real-estate-header {
-  background-image: url(img/bg-img/real-estate-header.jpg);
+.investment-header {
+  background-image: url(img/bg-img/investment-header.jpg);
 }
 
 .business-header {
