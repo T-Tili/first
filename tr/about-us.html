@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+  <!-- Title -->
+  <title>Skyland - Your Trusted Partner in Ankara</title>
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="mask-icon" href="safari-pinned-tab.svg" color="#c79c6e">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Firebase -->
+  <script src="https://www.gstatic.com/firebasejs/5.8.1/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.8.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.8.1/firebase-database.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Tajawal:300,400,700,900" rel="stylesheet">
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <!-- Preloader -->
+  <div class="preloader d-flex align-items-center justify-content-center">
+    <div class="cssload-container">
+      <div class="cssload-loading"><i></i><i></i><i></i><i></i></div>
+    </div>
+  </div>
+
+  <!-- ##### Header Area Start ##### -->
+  <header class="header-area">
+    <!-- Navbar Area -->
+    <div class="sky-main-menu">
+      <div class="classy-nav-container breakpoint-off">
+        <div class="container">
+          <!-- Menu -->
+          <nav class="classy-navbar justify-content-around" id="skyNav">
+
+            <!-- Nav brand -->
+            <a href="index.html" class="nav-brand"><img class="skyland-logo" src="img/core-img/logo.png" alt=""></a>
+
+            <!-- Navbar Toggler -->
+            <div class="classy-navbar-toggler">
+              <span class="navbarToggler"><span></span><span></span><span></span></span>
+            </div>
+
+            <!-- Menu -->
+            <div class="classy-menu">
+
+              <!-- close btn -->
+              <div class="classycloseIcon">
+                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+              </div>
+
+              <!-- Nav Start -->
+              <div class="classynav">
+                <ul class="mr-5">
+                  <li class="active px-3"><a href="index.html">Home</a></li>
+                  <li class="px-3"><a href="#">About</a>
+                    <ul class="dropdown">
+                      <li><a href="about-us.html">About Us</a></li>
+                      <li><a href="partners.html">Our Partners</a></li>
+                      <li class="last-dropdown"><a href="team.html">Our Team</a></li>
+                    </ul>
+                  </li>
+                  <li class="px-3"><a href="#">Services</a>
+                    <ul class="dropdown">
+                      <li><a href="business.html">Business</a></li>
+                      <li><a href="visa.html">Visa</a></li>
+                      <li><a href="investment.html">Investment</a></li>
+                      <li><a href="education.html">Education</a></li>
+                      <li class="last-dropdown"><a href="health.html">Health</a></li>
+                    </ul>
+                  </li>
+                  <li class="px-3"><a class="border-bottom-0" href="contact.html">Contact</a></li>
+                </ul>
+              </div>
+              <!-- Nav End -->
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ##### Header Area End ##### -->
+
+  <!-- ##### Breadcrumb Area Start ##### -->
+  <section class="breadcrumb-area bg-img d-flex align-items-end justify-content-center" style="background-image: url(img/bg-img/about-us-header.jpg);">
+    <div class="breadcrumbContent">
+      <h2>About us</h2>
+    </div>
+  </section>
+  <!-- ##### Breadcrumb Area End ##### -->
+
+  <!-- ##### About Us Area Start ##### -->
+  <section class="about-us-area">
+    <div class="container">
+      <div class="about-wot mb-100 mt-5 pt-5 text-justify">
+        <p>At Skyland Tourism Limited Sirketi, we are committed to provide luxurious travel services to our valued
+          clients while promoting one of the world’s most unique and desirable destinations in Turkey.</p>
+        <p>We are a one stop travel management agency governed by world class talents and experiences in offering
+          excellent healthcare tourism and other travel services including ticket operation services, processing of
+          visas, as well as education, investment, work and residence permits, accommodation arrangement and car
+          rental.</p>
+        <p>We pride ourselves in the delivery of high quality, professional services that are beyond clients’
+          expectations, within the framework of quality, responsibility, equity and sustainable development. By
+          capitalizing on our knowledge and expertise of the local operating environment, we deliver global best
+          practices, standards and systems that offer our clients best value. We strive to fulfill our objectives tailored
+          to our clients’ needs whilst complying with legal requirements, regulation and company’s procedures.</p>
+      </div>
+
+    </div>
+  </section>
+  <!-- ##### About Us Area End ##### -->
+
+  <!-- ##### Carousel Start ##### -->
+  <section class="about-carousel-section">
+    <div class="container-fluid px-0 mx-0">
+
+      <div id="about-carousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators mb-100">
+          <li data-target="#about-carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#about-carousel" data-slide-to="1"></li>
+          <li data-target="#about-carousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+
+          <div class="carousel-item about-carousel-1 active">
+            <div class="container-fluid about-carousel-containers-mission bg-img bg-overlay">
+              <div class="row justify-content-center">
+                <div class="col-12 col-lg-8">
+                  <div class="section-heading text-center white">
+                    <div class="my-5 line-"></div>
+                    <h2>Mission</h2>
+                    <p class="mx-5 px-5">Our mission is to deliver top notch travel services with
+                      readiness and promptness with the goal of ensuring
+                      stress-free travels in addition to lead investors to
+                      successful business ventures.</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="carousel-item about-carousel-2">
+            <div class="container-fluid about-carousel-containers-vision bg-overlay">
+              <div class="row justify-content-center">
+                <div class="col-12 col-lg-8">
+                  <div class="section-heading text-center white">
+                    <div class="my-5 line-"></div>
+                    <h2>Vision</h2>
+                    <p class="mx-5 px-5">To establish our mark as the leading tourism company
+                      providing quality, creative, innovative, competitive and
+                      socially responsible services in the region and also be
+                      the reliable source for new and profitable business
+                      opportunities.</p>
+                    <p>&nbsp;</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="carousel-item about-carousel-3">
+            <div class="container-fluid about-carousel-containers-values bg-overlay">
+              <div class="row justify-content-center">
+                <div class="col-12 col-lg-8">
+                  <div class="section-heading text-center white">
+                    <div class="my-5 line-"></div>
+                    <h2>Values</h2>
+                    <div class="container ml-50 pl-5 about-list">
+                      <p>Our core values are:</p>
+                      <ul>
+                        <li>Prices</li>
+                        <li>Responsibility</li>
+                        <li class="ml-1">Integrity</li>
+                        <li>Customer Focus</li>
+                        <li>Excellence</li>
+                        <li>Service orientation</li>
+                      </ul>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <a class="carousel-control-prev" href="#about-carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#about-carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+  <!-- ##### Carousel End ##### -->
+
+  <!-- ##### Footer Area Start ##### -->
+  <footer class="footer-area">
+    <div class="container">
+      <div class="row text-center">
+
+        <!-- Logo Area -->
+        <div class="mt-50 col-12 col-md-6 col-lg-3">
+          <a href="index.html" class="d-inline mb-0"><img class="logo-footer" src="img/core-img/logo-footer.png" alt=""></a>
+        </div>
+
+        <!-- Address Area -->
+        <div class="footer-address mt-50 pr-lg-0 col-12 col-md-6 col-lg-3 text-center text-md-left">
+          <p>Kazım Özalp Mah. Koza Sok. 35/3</p>
+          <p>G.O.P Ankara</p>
+          <br>
+          <p>+90 553 880 58 36</p>
+          <p>info@skyland.world</p>
+        </div>
+
+        <!-- Map Area -->
+        <div class="mt-50 pl-lg-0 col-12 col-md-6 col-lg-3">
+          <h6 class="widget-title mb-5">Find us on the map</h6>
+          <img src="img/bg-img/footer-map.png" alt="">
+        </div>
+
+        <!-- Subscribe Area -->
+        <div class="mt-50 col-12 col-md-6 col-lg-3">
+          <h6 class="widget-title mb-5">Subscribe to our newsletter</h6>
+          <form action="#" method="post" class="subscribe-form">
+            <input type="email" name="subscribe-email" id="subscribeemail" placeholder="Your E-mail">
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+  <!-- ##### Footer Area End ##### -->
+
+  <!-- ##### Scripts ##### -->
+
+  <!-- jQuery-2.2.4 js -->
+  <script src="js/jquery/jquery-2.2.4.min.js"></script>
+  <!-- Popper js -->
+  <script src="js/bootstrap/popper.min.js"></script>
+  <!-- Bootstrap js -->
+  <script src="js/bootstrap/bootstrap.min.js"></script>
+  <!-- All Plugins js -->
+  <script src="js/plugins/plugins.js"></script>
+  <!-- Active js -->
+  <script src="js/active.js"></script>
+</body>
+
+</html>
